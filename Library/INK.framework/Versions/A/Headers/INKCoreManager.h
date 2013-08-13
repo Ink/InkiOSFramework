@@ -53,6 +53,7 @@
 - (BOOL)handleOpenURL:(NSURL *)url;
 - (NSURL*)constructIACURL:(INKAction*)action;
 - (NSURL*)constructReturnIACURL:(INKAction*)action requestId:(NSString*)requestId;
+- (NSURL *)constructIOS6ReturnURL:(INKAction*)action withRequestId:(NSString *)requestId;
 - (NSURL *)constructIOS6OpenURL: (INKAction *) action withRequestId:(NSString *)requestId;
 
 - (void)registerForRequest:(NSString*)requestId returnHandler:(INKActionCallbackBlock)handler;
