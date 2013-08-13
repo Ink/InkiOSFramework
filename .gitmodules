@@ -1,12 +1,3 @@
-[submodule "SampleApps/ThatPDF"]
-	path = SampleApps/ThatPDF
-	url = git@github.com:Ink/ThatPDF.git
-[submodule "SampleApps/ThatCloud"]
-	path = SampleApps/ThatCloud
-	url = git@github.com:Ink/ThatCloud.git
-[submodule "SampleApps/ThatInbox"]
-	path = SampleApps/ThatInbox
-	url = git@github.com:Ink/ThatInbox.git
 [submodule "SampleApps/ThatPhoto"]
 	path = SampleApps/ThatPhoto
 	url = git@github.com:Ink/ThatPhoto.git
