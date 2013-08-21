@@ -8,4 +8,6 @@ Visit [http://inkmobility.com/developers/ios/docs](http://inkmobility.com/develo
 To install the docset file into Xcode, run `./install_docs.sh`. Note that you'll have restart Xcode for the documentation to show up.
 
 Changelog
+
 v0.4.0: Initial release. 8/13/13
+v0.4.1: Bug fix for sqllite write error. Reduce excessive logging. 8/21/2013
