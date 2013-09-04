@@ -9,7 +9,14 @@ To install the docset file into Xcode, run `./install_docs.sh`. Note that you'll
 
 Changelog
 
-* v1.0 (8/27/2013):
+* v4.4 (9/3/2013):
+ * BREAKING CHANGE: Apps must link against zlib. Add "-lz" to "Other linker flags" in your build settings
+ * Implemented "magic install flow" (actions continue when app is newly installed)
+  * NOTE: Your app must be ready to handle actions by the time didFinishLaunchingWithOptions has finished running.
+ * "Discard your changes" only appears when changes have been made
+ * Stability improvements to the underlying communication protocol
+ * Fixed bug where loading spinner didn't appear for PDFs
+* v4.3 (8/27/2013):
  * Better warning for nil blobs and returnWithBlob: nil
  * INKActions are now keyed off of UUIDs. 
     * This deprecates [INKAction action:name...] in favor of [INKAction actionWithUUID:...]. All existing actions have UUIDs matching their user displayed text so existing code, although deprecated, will continue to work.
